@@ -4,6 +4,7 @@
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
 ## 반응형 웹 퍼블리싱
+![screen-recording](https://user-images.githubusercontent.com/54789601/214799878-0f4217ac-9e03-4ade-8c86-55ffa85155fc.gif)
 
 ## 글로벌 스타일 코드
 ![image](https://user-images.githubusercontent.com/54789601/214794706-36590c49-a8ba-4fbf-ae95-8d403a1092f4.png)
