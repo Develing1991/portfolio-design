@@ -4,7 +4,6 @@
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
 ## 반응형 웹 퍼블리싱
-![reactivity](https://user-images.githubusercontent.com/54789601/214793952-d072167a-cbd1-49e6-a7a5-fff8a8a93f8b.gif)
 
 ## 글로벌 스타일 코드
 ![image](https://user-images.githubusercontent.com/54789601/214794706-36590c49-a8ba-4fbf-ae95-8d403a1092f4.png)
