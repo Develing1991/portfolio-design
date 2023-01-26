@@ -13,3 +13,7 @@
 ### 1. 전체 스타일드 컴포넌트 스타일링
 ### 2. 스타일드 컴포넌트와 선택자 조합 스타일링
 ![image](https://user-images.githubusercontent.com/54789601/214796523-7f99186a-d5c0-467c-96e8-0c5ba46d17d4.png)
+
+## 공통 스타일드 컴포넌트 및 재 사용
+![image](https://user-images.githubusercontent.com/54789601/214798319-d9988d34-861a-49fc-b904-7aeb87c5d9d8.png)
+
