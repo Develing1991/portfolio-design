@@ -31,6 +31,7 @@ Next.js, graphql, typescript 나중에 기술 ...
 <br/><br/>
 
 # 검색 디바운싱
+- 마지막 입력 기준으로 일정 시간이 지나면 해당 키워드로 한번만 검색
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
