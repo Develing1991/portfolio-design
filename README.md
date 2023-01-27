@@ -1,5 +1,5 @@
 # Portfolio (with Next.js)
-Next.js, graphql, typescript 나중에 기술 ...
+Next.js, graphql, typescript ...
 
 <br/><br/>
 
