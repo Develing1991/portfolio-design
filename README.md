@@ -48,7 +48,7 @@ Next.js, graphql, typescript ...
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
 
 ### 프리페치 적용 후
-- 마우스 오버 시 해당 페이지를 들어갈 것이라 가정하고 페이지의 데이터 미리 받아오기 때문에 매우 빠른 UI 출력
+- 마우스 오버 시 해당 페이지를 들어갈 것이라 가정하고 페이지의 데이터 미리 받아오기 때문에 빠른 UI 출력
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
 
 <br/><br/>
@@ -62,7 +62,7 @@ Next.js, graphql, typescript ...
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
 
 ### 옵티미스틱 UI 적용 후
-- 요청과 동시에 캐시 값을 직접 수정하기 때문에 반응이 매우 빠르게 보임
+- 요청과 동시에 캐시 값을 직접 수정하기 때문에 반응이 빠르게 보임
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215028624-8f245d04-8e9f-4506-990d-d1785e9611a4.gif" alt="XSS 공격 방지 처리 전"/>
 
 <br/><br/>
