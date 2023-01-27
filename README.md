@@ -45,11 +45,11 @@ Next.js, graphql, typescript ...
 
 ### 캐시 업데이트 (global state 조작) - 트래픽이 많은 경우의 최적화
 
-#### 리페치 쿼리
+#### 리페치 쿼리 - 트래픽 증가
 - 댓글 등록 시 Create API 요청 후 Fetch API 요청을 함
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
 
-#### 캐시 업데이트
+#### 캐시 업데이트 - 트래픽 감소
 - 댓글 등록 시 Create API 요청 만 하고 실제 캐시에 있는 값만 수정해서 Fetch API는 요청하지 않음
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
 
