@@ -31,3 +31,14 @@ Next.js, graphql, typescript 나중에 기술 ...
 ### 프리페치 적용 후 (마우스 오버 시 해당 페이지 데이터 미리 받기 후 페이지 이동)
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
 
+## XSS 공격 방지 (dompurify)
+### ex) Text Editor 라이브러리 사용 시 스크립트 문자 처리
+
+- XSS 공격 방지 처리 전
+<img width="900" src="https://user-images.githubusercontent.com/54789601/215020518-df5f3982-7189-4d9b-9193-818f5a233775.gif" alt="XSS 공격 방지 처리 전"/>
+
+- XSS 공격 방지 처리 후
+<img width="900" src="https://user-images.githubusercontent.com/54789601/215020408-b6238bd6-c11c-41bb-948c-f1febea6351e.gif" alt="XSS 공격 방지 처리 후"/>
+
+
+
