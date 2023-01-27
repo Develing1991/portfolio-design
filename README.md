@@ -22,4 +22,5 @@
 ![debouncing](https://user-images.githubusercontent.com/54789601/215004364-45e0d651-8935-4cc3-a71b-19ed0bd4e31c.gif)
 
 ## 무한 스크롤
+### apollo/client 글로벌 스테이트 캐시 업데이트
 ![infinitescroll](https://user-images.githubusercontent.com/54789601/215004368-1e96d3ea-40db-471d-9eab-67bc7d56c30b.gif)
