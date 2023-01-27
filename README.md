@@ -42,7 +42,20 @@ Next.js, graphql, typescript ...
 <br/><br/>
 
 ## 최적화 
-### 프리페치 (데이터 미리 받아오기)
+
+### 캐시 업데이트 (global state 조작) - 트래픽이 많은 경우의 최적화
+
+#### 리페치 쿼리
+- 댓글 등록 시 Create API 요청 후 Fetch API 요청을 함
+<img width="900" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
+
+#### 캐시 업데이트
+- 댓글 등록 시 Create API 요청 만 하고 실제 캐시에 있는 값만 수정해서 Fetch API는 요청하지 않음
+<img width="900" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
+
+<br/><br/>
+
+### 프리페치 (데이터 미리 받아오기) - 빠른 응답으로 UI,UX 개선
 
 #### 프리페치 적용 전
 - 페이지 이동 시 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
@@ -54,7 +67,7 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 옵티미스틱 UI (낙관적 UI)
+## 옵티미스틱 UI (낙관적 UI) - 빠른 응답으로 UX 개선
 - API요청에 대한 결과가 긍정적(성공)일 것이라 기대 하고 결과에 대한 캐시를 미리 업데이트 
 - 문제가 생겨도 크리티컬하지 않은 서비스에 적용 ( 구독 또는 좋아요 )
 
