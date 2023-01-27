@@ -9,7 +9,7 @@ Next.js, graphql, typescript ...
 <br/><br/>
 
 ## 반응형 웹 퍼블리싱
-<img width="900" src="https://user-images.githubusercontent.com/54789601/214800581-a2d33148-a3e1-47a0-84e9-f67489557cf9.gif" alt="검색 디바운싱"/>
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/214800581-a2d33148-a3e1-47a0-84e9-f67489557cf9.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
@@ -32,12 +32,12 @@ Next.js, graphql, typescript ...
 
 ## 검색 디바운싱
 - 마지막 입력 기준으로 일정 시간이 지나면 해당 키워드로 한 번만 검색
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
 ## 무한 스크롤
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215017234-56f8d8ae-a5d0-44ef-b85b-764af74c5b29.gif" alt="무한 스크롤"/>
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017234-56f8d8ae-a5d0-44ef-b85b-764af74c5b29.gif" alt="무한 스크롤"/>
 
 <br/><br/>
 
