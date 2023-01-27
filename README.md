@@ -51,7 +51,7 @@ Next.js, graphql, typescript 나중에 기술 ...
 <br/><br/>
 
 ## 옵티미스틱 UI
-- API요청에 대한 결과가 긍정적(성공)일 것이라 기대하고 결과에 대한 캐시를 미리 업데이트 - 크리티컬하지 않은 부분에 적용
+- API요청에 대한 결과가 긍정적(성공)일 것이라 기대하고 결과에 대한 캐시를 미리 업데이트 - 문제가 생겨도 크리티컬하지 않은 서비스에 적용
 ### 옵티미스틱 UI 적용 전
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
 
