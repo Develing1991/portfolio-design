@@ -42,31 +42,39 @@ Next.js, graphql, typescript 나중에 기술 ...
 
 # 최적화 
 ## 프리페치 
-### 프리페치 적용 전 (단순 페이지 이동)
+### 프리페치 적용 전
+- 페이지 이동 시 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
 
-### 프리페치 적용 후 (마우스 오버 시 해당 페이지 데이터 미리 받기 후 페이지 이동)
+### 프리페치 적용 후
+- 마우스 오버 시 해당 페이지를 들어갈 것이라 생각하고 페이지의 데이터 미리 받아온 후 페이지 이동 (매우 빠른 화면 전환)
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
 
 <br/><br/>
 
 ## 옵티미스틱 UI
-- API요청에 대한 결과가 긍정적(성공)일 것이라 기대하고 결과에 대한 캐시를 미리 업데이트 - 문제가 생겨도 크리티컬하지 않은 서비스에 적용
+- API요청에 대한 결과가 긍정적(성공)일 것이라 기대하고 결과에 대한 캐시를 미리 업데이트 
+- 문제가 생겨도 크리티컬하지 않은 서비스에 적용 ( 구독 또는 좋아요 )
+
 ### 옵티미스틱 UI 적용 전
+- 요청후 업데이트 된 값을 반영하기 때문에 네트워크가 느린 환경에선 다소 느려보임
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
 
 ### 옵티미스틱 UI 적용 후
+- 요청과 동시에 캐시 값을 직접 수정하기 때문에 반응이 매우 빠르게 보임
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215028624-8f245d04-8e9f-4506-990d-d1785e9611a4.gif" alt="XSS 공격 방지 처리 전"/>
 
 <br/><br/>
 
 # XSS 공격 방지 (dompurify) - Text Editor 라이브러리 사용 시 스크립트 문자 처리
-<br/>
-
+- 임의로 스크립트로 작성 된 게시글을 등록 (실제 백 엔드 XSS관련 처리로직이 제대로 동작하지 않았을 경우를 가정)
+- 
 ## XSS 공격 방지 처리 전
+- 해당 페이지 접근 시 스크립트 실행
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215020518-df5f3982-7189-4d9b-9193-818f5a233775.gif" alt="XSS 공격 방지 처리 전"/>
 
 ## XSS 공격 방지 처리 후
+- 해당 페이지 접근 시 스크립트 실행하지 않음
 <img width="900" src="https://user-images.githubusercontent.com/54789601/215020408-b6238bd6-c11c-41bb-948c-f1febea6351e.gif" alt="XSS 공격 방지 처리 후"/>
 
 
