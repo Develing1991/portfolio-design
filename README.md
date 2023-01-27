@@ -9,7 +9,7 @@ Next.js, graphql, typescript ...
 <br/><br/>
 
 ## 반응형 웹 퍼블리싱
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/214800581-a2d33148-a3e1-47a0-84e9-f67489557cf9.gif" alt="검색 디바운싱"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/214800581-a2d33148-a3e1-47a0-84e9-f67489557cf9.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
@@ -32,12 +32,12 @@ Next.js, graphql, typescript ...
 
 ## 검색 디바운싱
 - 마지막 입력 기준으로 일정 시간이 지나면 해당 키워드로 한 번만 검색
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
 ## 무한 스크롤
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017234-56f8d8ae-a5d0-44ef-b85b-764af74c5b29.gif" alt="무한 스크롤"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215017234-56f8d8ae-a5d0-44ef-b85b-764af74c5b29.gif" alt="무한 스크롤"/>
 
 <br/><br/>
 
@@ -47,11 +47,11 @@ Next.js, graphql, typescript ...
 
 #### 리페치 쿼리 - API 요청 트래픽 증가
 - 댓글 등록 시 Create API 요청 후 Fetch API 요청을 함
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
 
 #### 캐시 업데이트 - API 요청 트래픽 감소
 - 댓글 등록 시 Create API 요청. 업데이트 결과 UI 갱신은 캐시에 있는 값만 수정했기 때문에 Fetch API는 추가로 요청하지 않음
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
 
 <br/><br/>
 
@@ -59,11 +59,11 @@ Next.js, graphql, typescript ...
 
 #### 프리페치 적용 전
 - 페이지로 이동 시 해당 페이지에서 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
 
 #### 프리페치 적용 후
 - 마우스 오버 시 해당 페이지의 데이터 미리 받아오기 때문에 빠른 UI 렌더링 ( cache-first 정책 )
-<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
 
 <br/><br/>
 
@@ -73,11 +73,11 @@ Next.js, graphql, typescript ...
 
 ####  옵티미스틱 UI 적용 전
 - 요청 후 업데이트 된 값을 반영하기 때문에 네트워크가 느린 환경에선 다소 느려보임
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
 
 ####  옵티미스틱 UI 적용 후
 - 요청과 동시에 캐시 값을 직접 수정하기 때문에 반응이 빠르게 보임
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215028624-8f245d04-8e9f-4506-990d-d1785e9611a4.gif" alt="XSS 공격 방지 처리 전"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215028624-8f245d04-8e9f-4506-990d-d1785e9611a4.gif" alt="XSS 공격 방지 처리 전"/>
 
 <br/><br/>
 
@@ -87,11 +87,11 @@ Next.js, graphql, typescript ...
 
 ####  XSS 공격 방지 처리 전
 - 해당 페이지 접근 시 스크립트 실행
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215020518-df5f3982-7189-4d9b-9193-818f5a233775.gif" alt="XSS 공격 방지 처리 전"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215020518-df5f3982-7189-4d9b-9193-818f5a233775.gif" alt="XSS 공격 방지 처리 전"/>
 
 ####  XSS 공격 방지 처리 후
 - 해당 페이지 접근 시 스크립트 실행하지 않음
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215020408-b6238bd6-c11c-41bb-948c-f1febea6351e.gif" alt="XSS 공격 방지 처리 후"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215020408-b6238bd6-c11c-41bb-948c-f1febea6351e.gif" alt="XSS 공격 방지 처리 후"/>
 
 
 
