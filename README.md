@@ -45,25 +45,25 @@ Next.js, graphql, typescript ...
 
 ### 캐시 업데이트 (global state 조작) - 트래픽이 많은 경우의 최적화
 
-#### 리페치 쿼리 - 트래픽 증가
+#### 리페치 쿼리 - API 요청 트래픽 증가
 - 댓글 등록 시 Create API 요청 후 Fetch API 요청을 함
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215204010-02dc4704-5258-45cb-ae54-823417f77113.gif" alt="리페치 쿼리"/>
 
-#### 캐시 업데이트 - 트래픽 감소
-- 댓글 등록 시 Create API 요청 만 하고 실제 캐시에 있는 값만 수정해서 Fetch API는 요청하지 않음
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
+#### 캐시 업데이트 - API 요청 트래픽 감소
+- 댓글 등록 시 Create API 요청. 업데이트 결과 UI 갱신은 캐시에 있는 값만 수정했기 때문에 Fetch API는 추가로 요청하지 않음
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215204049-c2b8a535-1c67-41b8-86c1-69d9a383ee96.gif" alt="캐시 업데이트"/>
 
 <br/><br/>
 
 ### 프리페치 (데이터 미리 받아오기) - 빠른 응답으로 UI,UX 개선
 
 #### 프리페치 적용 전
-- 페이지 이동 시 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
+- 페이지로 이동 시 해당 페이지에서 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017265-c28630d5-e9f0-455e-b184-15621d114903.gif" alt="프리페치 이전"/>
 
 #### 프리페치 적용 후
-- 마우스 오버 시 해당 페이지의 데이터 미리 받아오기 때문에 빠른 UI 렌더링
-<img width="900" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
+- 마우스 오버 시 해당 페이지의 데이터 미리 받아오기 때문에 빠른 UI 렌더링 ( cache-first 정책 )
+<img width="1000" src="https://user-images.githubusercontent.com/54789601/215017279-e81e3fcc-4687-43ad-af99-1083c9dfec16.gif" alt="프리페치 이후"/>
 
 <br/><br/>
 
