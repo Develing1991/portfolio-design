@@ -18,4 +18,8 @@
 ## 공통 스타일드 컴포넌트 및 재 사용
 ![image](https://user-images.githubusercontent.com/54789601/214798319-d9988d34-861a-49fc-b904-7aeb87c5d9d8.png)
 
-///
+## 검색 디바운싱
+![debouncing](https://user-images.githubusercontent.com/54789601/215004364-45e0d651-8935-4cc3-a71b-19ed0bd4e31c.gif)
+
+## 무한 스크롤
+![infinitescroll](https://user-images.githubusercontent.com/54789601/215004368-1e96d3ea-40db-471d-9eab-67bc7d56c30b.gif)
