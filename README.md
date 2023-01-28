@@ -93,5 +93,7 @@ Next.js, graphql, typescript ...
 - 해당 페이지 접근 시 스크립트 실행하지 않음
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215020408-b6238bd6-c11c-41bb-948c-f1febea6351e.gif" alt="XSS 공격 방지 처리 후"/>
 
+## 이미지 미리보기 지원 (드래그 앤 드랍 또는 클릭)
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215259794-836201cf-673c-468d-9977-452e84aa1513.gif" alt="XSS 공격 방지 처리 후"/>
 
 
