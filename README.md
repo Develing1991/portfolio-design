@@ -18,7 +18,7 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 반응형 퍼블리싱 코드 타입
+## 퍼블리싱 코드 타입
 ### 1. 전체 스타일드 컴포넌트 스타일링
 ### 2. 스타일드 컴포넌트와 선택자 조합 스타일링
 ![image](https://user-images.githubusercontent.com/54789601/214796523-7f99186a-d5c0-467c-96e8-0c5ba46d17d4.png)
@@ -99,4 +99,36 @@ Next.js, graphql, typescript ...
 - 드래그 앤 드랍 또는 클릭
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215259794-836201cf-673c-468d-9977-452e84aa1513.gif" alt="XSS 공격 방지 처리 후"/>
 
+<br/><br/>
+
+## 밸리데이션 (react-hook-form, yup)
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215815761-32bea858-8bdc-460b-8b21-b4c61ea7322e.gif" alt="밸리데이션"/>
+
+<br/><br/>
+
+## jwt 토큰 보안이슈 
+- accessToken 메모리로 관리, 새로고침 - 로그인 유지 (완)
+- 로그인, 로그아웃 시 헤더에 대한 돔구조가 다름 -> 브라우저 렌더링과 프리 렌더링관련 이슈 처리(완)
+- refreshToken 쿠키 (httpOnly, secure) (백 엔드)
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215816102-2d97738d-cd09-43a5-a0f2-88d369cdd1e3.gif" alt="로그인"/>
+
+<br/><br/>
+
+## 자체 라우터가드
+- 인증 및 인가가 필요한 페이지는 링크 또는 직접 url 접근 시 블록
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215816820-e2c751c6-fd88-4940-bdce-48f1c0abfd5c.gif" alt="라우터가드"/>
+
+<br/><br/>
+
+## 서버사이드 렌더링
+- 소셜네트워크 서비스 링크 공유 또는 스크랩, 크롤링, 검색엔진 최적화 시 필요한 페이지에 맞게 서버사이드 렌더링 작업
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215816745-7ad6678b-5601-4607-83d0-179304d45d29.gif" alt="서버사이드"/>
+
+<br/><br/>
+
+## 이후 추가사항
+메인페이지 퍼블리싱 (이미지 레이지로드 추가)
+메모이제이션 미비한 곳 추가
+aws 정적, 동적파일 CDN 분기 및 Docker 배포 (백그라운드)
+백엔드 분리 (firebase base 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작
 
