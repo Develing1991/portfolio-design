@@ -19,23 +19,26 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-<h2 id="design">Figma 프로토타입 디자인</h2>
+## <h2 id="design">Figma 프로토타입 디자인</h2>
 
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
 <br/><br/>
 
-## 반응형 웹 퍼블리싱
+## <h2 id="publishing">반응형 웹 퍼블리싱</h2>
+
 <img width="960" src="https://user-images.githubusercontent.com/54789601/214800581-a2d33148-a3e1-47a0-84e9-f67489557cf9.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
 ## 글로벌 스타일 코드
+
 ![image](https://user-images.githubusercontent.com/54789601/214794706-36590c49-a8ba-4fbf-ae95-8d403a1092f4.png)
 
 <br/><br/>
 
-## 퍼블리싱 코드 타입
+## <h2 id="styled">퍼블리싱 코드 타입</h2>
+
 ### 1. 전체 스타일드 컴포넌트 스타일링
 ### 2. 스타일드 컴포넌트와 선택자 조합 스타일링
 ![image](https://user-images.githubusercontent.com/54789601/214796523-7f99186a-d5c0-467c-96e8-0c5ba46d17d4.png)
@@ -47,20 +50,22 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 검색 디바운싱
+## <h2 id="debounce">검색 디바운싱</h2>
+
 - 마지막 입력 기준으로 일정 시간이 지나면 해당 키워드로 한 번만 검색
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215017242-025d3e7e-89fd-474c-8f0f-c3d1e2adf543.gif" alt="검색 디바운싱"/>
 
 <br/><br/>
 
-## 무한 스크롤
+## <h2 id="infinite">무한 스크롤</h2>
+
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215017234-56f8d8ae-a5d0-44ef-b85b-764af74c5b29.gif" alt="무한 스크롤"/>
 
 <br/><br/>
 
 ## 최적화 
 
-### 캐시 업데이트 (global state 조작) - 트래픽이 많은 경우의 최적화
+### <h2 id="cache">캐시 업데이트</h2> (global state 조작) - 트래픽이 많은 경우의 최적화
 
 #### 리페치 쿼리 - API 요청 트래픽 증가
 - 댓글 등록 시 Create API 요청 후 Fetch API 요청을 함
@@ -72,7 +77,7 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-### 프리페치 (데이터 미리 받아오기) - 빠른 응답으로 UI,UX 개선
+### <h2 id="prefetch">프리페치</h2> (데이터 미리 받아오기) - 빠른 응답으로 UI,UX 개선
 
 #### 프리페치 적용 전
 - 페이지로 이동 시 해당 페이지에서 데이터를 받아오기 때문에 네트워크가 느린 환경에선 다소 느려보임
@@ -84,7 +89,7 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 옵티미스틱 UI (낙관적 UI) - 빠른 응답으로 UX 개선
+## <h2 id="optimistic">옵티미스틱 UI</h2> (낙관적 UI) - 빠른 응답으로 UX 개선
 - API요청에 대한 결과가 긍정적(성공)일 것이라 기대 하고 결과에 대한 캐시를 미리 업데이트 
 - 문제가 생겨도 크리티컬하지 않은 서비스에 적용 ( 구독 또는 좋아요 )
 
@@ -98,7 +103,7 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## XSS 공격 방지 (dompurify) - Text Editor 라이브러리 사용 시 스크립트 문자 처리
+## <h2 id="xxs">XSS 공격 방지</h2> (dompurify) - Text Editor 라이브러리 사용 시 스크립트 문자 처리
 - 임의로 스크립트로 작성 된 게시글을 등록 
 - 실제 백 엔드 XSS관련 처리 로직이 제대로 동작하지 않았을 모든 상황을 가정
 
@@ -112,18 +117,20 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 이미지 미리보기
+## <h2 id="preview">이미지 미리보기</h2>
+
 - 드래그 앤 드랍 또는 클릭
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215259794-836201cf-673c-468d-9977-452e84aa1513.gif" alt="XSS 공격 방지 처리 후"/>
 
 <br/><br/>
 
-## 폼 밸리데이션 (react-hook-form, yup)
+## <h2 id="validation">폼 밸리데이션</h2> (react-hook-form, yup)
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215819151-033f143c-8c1a-45ff-95fe-e54b0e0a2570.gif" alt="밸리데이션"/>
 
 <br/><br/>
 
-## jwt 토큰 보안이슈 
+## <h2 id="jwt">jwt 토큰 보안이슈</h2>
+
 - accessToken 메모리로 관리, 새로고침 - 로그인 유지 (완)
 - 로그인, 로그아웃 시 헤더에 대한 구조가 다름 -> 브라우저 렌더링과 프리 렌더링관련 이슈 처리(완)
 - refreshToken 쿠키 (httpOnly, secure) (백 엔드)
@@ -131,13 +138,16 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 자체 라우터가드
+
+## <h2 id="router">자체 라우터가드</h2>
+
 - 인증 및 인가가 필요한 페이지는 링크 또는 직접 url 접근 시 블록
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215816820-e2c751c6-fd88-4940-bdce-48f1c0abfd5c.gif" alt="라우터가드"/>
 
 <br/><br/>
 
-## 서버사이드 렌더링
+## <h2 id="ssr">서버사이드 렌더링</h2>
+
 - 소셜네트워크 서비스 링크 공유 또는 스크랩, 크롤링, 검색엔진 최적화 시 필요한 페이지에 맞게 서버사이드 렌더링 작업
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215816745-7ad6678b-5601-4607-83d0-179304d45d29.gif" alt="서버사이드"/>
 
