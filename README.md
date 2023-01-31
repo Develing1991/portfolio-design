@@ -166,7 +166,7 @@
 <li>메인페이지 퍼블리싱 (이미지 레이지로드 추가)</li>
 <li>메모이제이션 미비한 곳 추가로 최적화</li>
 <li>aws 정적, 동적파일 CDN 분기 및 Docker 배포 (백그라운드)</li>
-<li>백엔드 분리 (firebase base 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작</li>
+<li>백엔드 분리 (firebase base 이관 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작</li>
 </ul>
 
 
