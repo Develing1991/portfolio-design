@@ -1,21 +1,24 @@
 # with Next.js
-Next.js, graphql, typescript ...
+...
 
-주요 키워드
-<a href="#design">디자인</a>
-<a href="#publishing">퍼블리싱</a>
-<a href="#styled">스타일드 코드</a>
-<a href="#debounce">검색 디바운싱</a>
-<a href="#infinite">무한스크롤</a>
-<a href="#cache">최적화 - 캐시업데이트</a>
-<a href="#prefetch">최적화 - 프리페치</a>
-<a href="#optimistic">최적화 - 옵티미스틱 UI</a>
-<a href="#xxs">XXS 공격</a>
-<a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a>
-<a href="#validation">폼 밸리데이션</a>
-<a href="#jwt">JWT 인증,인가 - 보안 처리</a>
-<a href="#router">라우터 가드</a>
-<a href="#ssr">서버사이드 렌더링</a>
+## 주요 키워드
+<ul>
+  <li><a href="#design">디자인</a></li>
+  <li><a href="#publishing">퍼블리싱</a></li>
+  <li><a href="#styled">스타일드 코드</a></li>
+  <li><a href="#debounce">검색 디바운싱</a></li>
+  <li><a href="#infinite">무한스크롤</a></li>
+  <li><a href="#cache">최적화 - 캐시업데이트</a></li>
+  <li><a href="#prefetch">최적화 - 프리페치</a></li>
+  <li><a href="#optimistic">최적화 - 옵티미스틱 UI</a></li>
+  <li><a href="#xxs">XXS 공격</a></li>
+  <li><a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a></li>
+  <li><a href="#validation">폼 밸리데이션</a></li>
+  <li><a href="#jwt">JWT 인증,인가 - 보안 처리</a></li>
+  <li><a href="#router">라우터 가드</a></li>
+  <li><a href="#ssr">서버사이드 렌더링</a></li>
+</ul>
+
 
 <br/><br/>
 
