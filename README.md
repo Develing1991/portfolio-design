@@ -11,7 +11,7 @@
   <li><a href="#cache">최적화 - 캐시업데이트</a></li>
   <li><a href="#prefetch">최적화 - 프리페치</a></li>
   <li><a href="#optimistic">최적화 - 옵티미스틱 UI</a></li>
-  <li><a href="#xxs">XXS 공격</a></li>
+  <li><a href="#xxs">XXS 관련 처리</a></li>
   <li><a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a></li>
   <li><a href="#validation">폼 밸리데이션</a></li>
   <li><a href="#jwt">JWT 인증,인가 - 보안 처리</a></li>
@@ -144,9 +144,9 @@
 <br/><br/>
 
 
-<h2 id="router">자체 라우터가드</h2>
+<h2 id="router">라우터가드</h2>
 
-- 인증 및 인가가 필요한 페이지는 링크 또는 직접 url 접근 시 블록
+- 인증 및 인가가 필요한 페이지는 링크 또는 직접 url 접근 시 블락
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215816820-e2c751c6-fd88-4940-bdce-48f1c0abfd5c.gif" alt="라우터가드"/>
 
 <br/><br/>
@@ -165,7 +165,7 @@
 <li>스크롤 다운시 페이지 최상단으로 이동하는 아이콘</li>
 <li>메인페이지 퍼블리싱 (이미지 레이지로드 추가)</li>
 <li>메모이제이션 미비한 곳 추가로 최적화</li>
-<li>aws 정적, 동적파일 CDN 분기 및 Docker 배포 (백그라운드)</li>
+<li>aws 정적, 동적파일 CDN 분기 및 로드밸런서 트래픽 분산 Docker 배포 (백그라운드)</li>
 <li>백엔드 분리 (firebase base 이관 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작</li>
 </ul>
 
