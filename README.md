@@ -1,9 +1,25 @@
 # with Next.js
 Next.js, graphql, typescript ...
 
+주요 키워드
+<a href="#design">디자인</a>
+<a href="#publishing">퍼블리싱</a>
+<a href="#styled">스타일드 코드</a>
+<a href="#debounce">검색 디바운싱</a>
+<a href="#infinite">무한스크롤</a>
+<a href="#cache">최적화 - 캐시업데이트</a>
+<a href="#prefetch">최적화 - 프리페치</a>
+<a href="#optimistic">최적화 - 옵티미스틱 UI</a>
+<a href="#xxs">XXS 공격</a>
+<a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a>
+<a href="#validation">폼 밸리데이션</a>
+<a href="#jwt">JWT 인증,인가 - 보안 처리</a>
+<a href="#router">라우터 가드</a>
+<a href="#ssr">서버사이드 렌더링</a>
+
 <br/><br/>
 
-## Figma 프로토타입 디자인
+<h2 id="design">Figma 프로토타입 디자인</h2>
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
 <br/><br/>
@@ -127,8 +143,10 @@ Next.js, graphql, typescript ...
 <br/><br/>
 
 ## 이후 추가사항
+헤더 퍼블리싱 추가 (스크롤 다운 시 fixed)
+스크롤 다운시 페이지 최상단으로 이동하는 아이콘
 메인페이지 퍼블리싱 (이미지 레이지로드 추가)
-메모이제이션 미비한 곳 추가
+메모이제이션 미비한 곳 추가로 최적화
 aws 정적, 동적파일 CDN 분기 및 Docker 배포 (백그라운드)
 백엔드 분리 (firebase base 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작
 
