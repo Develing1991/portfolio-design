@@ -101,8 +101,8 @@ Next.js, graphql, typescript ...
 
 <br/><br/>
 
-## 밸리데이션 (react-hook-form, yup)
-<img width="960" src="https://user-images.githubusercontent.com/54789601/215815761-32bea858-8bdc-460b-8b21-b4c61ea7322e.gif" alt="밸리데이션"/>
+## 폼 밸리데이션 (react-hook-form, yup)
+<img width="960" src="https://user-images.githubusercontent.com/54789601/215819151-033f143c-8c1a-45ff-95fe-e54b0e0a2570.gif" alt="밸리데이션"/>
 
 <br/><br/>
 
