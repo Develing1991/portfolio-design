@@ -118,7 +118,7 @@
 
 <br/><br/>
 
-<h2 id="xxs">XSS 공격 방지 (dompurify) - 스크립트 문자 처리 </h2>
+<h2 id="xxs">XSS(Cross Site Scripting) 공격 방지 (dompurify) - 스크립트 문자 처리 </h2>
 
 - 임의로 스크립트로 작성 된 게시글을 등록 
 - 실제 백 엔드 URL 노출 및 XSS관련 처리 로직이 제대로 동작하지 않았을 모든 상황을 가정
