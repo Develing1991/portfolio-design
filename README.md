@@ -20,13 +20,14 @@
   <li><a href="#cache">최적화 - 캐시업데이트</a></li>
   <li><a href="#prefetch">최적화 - 프리페치</a></li>
   <li><a href="#optimistic">최적화 - 옵티미스틱 UI</a></li>
-  <li><a href="#xxs">XXS 관련 처리</a></li>
+  <li><a href="#xxs">XXS 공격에 대한 보안 처리</a></li>
   <li><a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a></li>
   <li><a href="#validation">폼 밸리데이션</a></li>
   <li><a href="#jwt">JWT 인증,인가 - 보안 처리</a></li>
   <li><a href="#router">라우터 가드</a></li>
   <li><a href="#ssr">서버사이드 렌더링</a></li>
   <li><a href="#etc">이후 추가사항</a></li>
+  <li><a href="#study">관심사 및 스터디</a></li>
 </ul>
 
 
@@ -180,7 +181,8 @@
 <li>백엔드 변경 - 현재 localhost:3000에서만 요청 가능 (firebase base 이관 또는 직접 백엔드 구축)</li>
 </ul>
 
-## 관심사 및 이후 스터디
+<h2 id="study">관심사 및 스터디</h2>
+
 - 프로젝트 전반에 대한 좀 더 효율적인 방향에 대한 고민
 - PWA 또는 React-Native 스터디
 - 웹 접근성 및 크로스브라우징에 대한 추가적인 
