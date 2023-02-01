@@ -23,7 +23,7 @@
   <li><a href="#xxs">XXS 공격에 대한 보안 처리</a></li>
   <li><a href="#preview">이미지 업로드 미리보기(드래그 앤 드랍)</a></li>
   <li><a href="#validation">폼 밸리데이션</a></li>
-  <li><a href="#jwt">JWT 인증,인가 - 보안 처리</a></li>
+  <li><a href="#jwt">JWT 인증, 인가 보안 처리</a></li>
   <li><a href="#router">라우터 가드</a></li>
   <li><a href="#ssr">서버사이드 렌더링</a></li>
   <li><a href="#etc">이후 추가사항</a></li>
