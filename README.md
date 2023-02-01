@@ -112,7 +112,7 @@
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215028617-51836976-ba20-4d3b-af03-e3e0c92ed087.gif" alt="XSS 공격 방지 처리 전"/>
 
 ####  옵티미스틱 UI 적용 후
-- 요청과 동시에 캐시 값을 직접 수정하기 때문에 반응이 빠르게 보이는 효과
+- 요청과 동시에 캐시 값을 직접 수정하면서 요청하기 때문에 반응이 빠르게 보이는 효과
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215028624-8f245d04-8e9f-4506-990d-d1785e9611a4.gif" alt="XSS 공격 방지 처리 전"/>
 
 <br/><br/>
