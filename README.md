@@ -145,9 +145,9 @@
 
 <h2 id="jwt">jwt 토큰 보안이슈</h2>
 
-- accessToken 메모리로 관리,  새로고침 - 로그인 유지 (완)
-- 로그인, 로그아웃 시 헤더에 대한 구조가 다름 -> 브라우저 렌더링과 프리 렌더링관련 이슈 처리(완)
-- refreshToken 쿠키 (httpOnly, secure) (백 엔드)
+- accessToken 보안상 메모리로 관리 (완) - 새로고침 시에도 메모리 로그인 유지 처리 및 로그인에 대한 상태만 로컬스토리지에 저장
+- 브라우저 렌더링과 프리 렌더링관련 이슈 처리 (완) - 로그인, 로그아웃 시 헤더에 대한 DOM구조가 다름
+- refreshToken은 백 엔드에서 쿠키로 받아 옴 (httpOnly, secure 옵션)
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215816102-2d97738d-cd09-43a5-a0f2-88d369cdd1e3.gif" alt="로그인"/>
 
 <br/><br/>
@@ -175,7 +175,7 @@
 <li>메인페이지 퍼블리싱 (이미지 레이지로드 추가)</li>
 <li>메모이제이션 미비한 곳 추가로 최적화</li>
 <li>aws 정적, 동적파일 CDN 분기 및 로드밸런서 트래픽 분산 Docker 배포 (백그라운드)</li>
-<li>백엔드 분리 (firebase base 이관 또는 직접 백엔드 구축) -> 현재 localhost:3000에서만 동작</li>
+<li>백엔드 변경 - 현재 localhost:3000에서만 요청 가능 (firebase base 이관 또는 직접 백엔드 구축)</li>
 </ul>
 
 
