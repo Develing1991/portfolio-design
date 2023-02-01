@@ -146,7 +146,7 @@
 <h2 id="jwt">jwt 토큰 보안이슈</h2>
 
 - accessToken 보안상 메모리로 관리 (완) - 새로고침 시에도 메모리 로그인 유지 처리 및 로그인에 대한 상태만 로컬스토리지에 저장
-- 브라우저 렌더링과 프리 렌더링관련 이슈 처리 (완) - 로그인, 로그아웃 시 헤더에 대한 DOM구조가 다름
+- 브라우저 렌더링과 프리 렌더링관련 이슈 처리 (완) - 로그인, 로그아웃 시 헤더에 대한 DOM구조가 다름에 따른 처리
 - refreshToken은 백 엔드에서 쿠키로 받아 옴 (httpOnly, secure 옵션)
 <img width="960" src="https://user-images.githubusercontent.com/54789601/215816102-2d97738d-cd09-43a5-a0f2-88d369cdd1e3.gif" alt="로그인"/>
 
