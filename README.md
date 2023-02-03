@@ -166,7 +166,8 @@
 <h2 id="ssr">서버사이드 렌더링</h2>
 
 - 소셜네트워크 서비스 링크 공유 또는 스크랩, 크롤링, 검색엔진 최적화 시 필요한 페이지에 맞게 서버사이드 렌더링 작업
-<img width="960" src="https://user-images.githubusercontent.com/54789601/215816745-7ad6678b-5601-4607-83d0-179304d45d29.gif" alt="서버사이드"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/216532789-b492c1da-b27a-40da-b668-742d11725c62.gif" alt="서버사이드"/>
+
 
 <br/><br/>
 
