@@ -159,7 +159,7 @@
 <h2 id="router">라우터가드</h2>
 
 - 인증 및 인가가 필요한 페이지는 링크 또는 직접 url 접근 시 블락
-<img width="960" src="https://user-images.githubusercontent.com/54789601/215816820-e2c751c6-fd88-4940-bdce-48f1c0abfd5c.gif" alt="라우터가드"/>
+<img width="960" src="https://user-images.githubusercontent.com/54789601/216537803-49aea6aa-a49e-40a3-b6b9-ad11346d7e5e.gif" alt="라우터가드"/>
 
 <br/><br/>
 
