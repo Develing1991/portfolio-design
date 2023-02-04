@@ -38,7 +38,7 @@
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
 ![image](https://user-images.githubusercontent.com/54789601/216770731-c59d480c-c249-4b0d-a536-e59b357c6b12.png)
-웹 접근성 - 색약 명도 비율 확인
+웹 접근성(색약, 색맹) -  명도 비율 확인
 
 <br/><br/>
 
