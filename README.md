@@ -37,6 +37,9 @@
 
 ![image](https://user-images.githubusercontent.com/54789601/214791101-75d0ac8c-acbd-482b-8c61-c8657c29e1f6.png)
 
+![image](https://user-images.githubusercontent.com/54789601/216770731-c59d480c-c249-4b0d-a536-e59b357c6b12.png)
+웹 접근성 - 색약 명도 비율 확인
+
 <br/><br/>
 
 <h2 id="publishing">반응형 웹 퍼블리싱</h2>
@@ -186,7 +189,7 @@
 
 <h2 id="study">관심사 및 스터디</h2>
 
-- 웹 표준, 웹 접근성 및 크로스브라우징
+- 웹 표준, 웹 접근성 및 크로스브라우징 (스크린 리더 테스트, 또는 퍼블리싱 리팩토링)
 - 프로젝트 전반에 대한 좀 더 효율적인 방향에 대한 고민
 - PWA 또는 React-Native 스터디
 - 배포 및 자동화
